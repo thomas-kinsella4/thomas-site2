@@ -17,6 +17,7 @@ body {
 
 .navigation  a:hover {
     text-decoration: underline;
+    text-shadow: 2px 2px 8px white;
 }
 
 .navigation {
@@ -63,6 +64,7 @@ h2 {
 }
 
 .music p{
+    display: none;
     text-align: center;
     margin-left: 150px;
     font-size: 20px;
@@ -89,8 +91,9 @@ h2 {
 }
 
 .hockey p{
+    display: none;
     text-align: center;
-    margin-left: 150px;
+    margin-right: 150px;
     font-size: 20px;
     letter-spacing: 3px;
     width: 500px;
@@ -113,8 +116,32 @@ h2 {
 }
 
 .sewing p{
+    display: none;
     text-align: center;
     margin-left: 150px;
     font-size: 20px;
     letter-spacing: 3px;
+}
+
+#music-h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px white;
+}
+
+#hockey-h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px white;
+}
+
+#sewing-h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px white;
+}
+
+h1:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 8px white;
 }

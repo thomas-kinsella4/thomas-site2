@@ -1,9 +1,23 @@
-/*const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const musich2 = document.getElementById("music-h2");
+const musicp = document.getElementById("musicp");
 
-document.querySelector("body").appendChild(h2);*/
+musich2.addEventListener("click", function() {
+    musicp.style.display = "inline-block";
+});
 
-const h2 = document.querySelector("h2");
+const hockeyh2 = document.getElementById("hockey-h2");
+const hockeyp = document.getElementById("hockeyp");
+
+hockeyh2.addEventListener("click", function() {
+    hockeyp.style.display = "inline-block";
+});
+
+const sewingh2 = document.getElementById("sewing-h2");
+const sewingp = document.getElementById("sewingp");
+
+sewingh2.addEventListener("click", function() {
+    sewingp.style.display = "inline-block";
+});
 
 
 
