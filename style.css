@@ -1,7 +1,33 @@
 body {
-    background: #fefae0;
+    background-color: black;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+.navigation  a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.navigation {
+    margin-top: 75px;
 }
 
 h1 {
-    color: #606c38;
+    margin-top: 125px;
+    margin-bottom: 10px;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 100px;
+}
+
+h2 {
+    margin-top: 0px;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 20px;
 }
